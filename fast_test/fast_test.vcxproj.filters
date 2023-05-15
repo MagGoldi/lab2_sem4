@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Bubble">
+      <UniqueIdentifier>{920e2859-f8ce-4ce4-880c-0ead95314565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Bubble\Bubble_sorted">
+      <UniqueIdentifier>{5f8aaf9a-b056-4e0f-85a2-8ac0443ad723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Bubble\Bubble_reversed">
+      <UniqueIdentifier>{3cd16111-d984-492d-9a19-a5d97bd6387d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Bubble\Bubble_random">
+      <UniqueIdentifier>{84fa15b1-c658-401c-aeb6-99f3bd6ee33a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaker">
+      <UniqueIdentifier>{2c0ce76d-02ff-416c-848a-4cdc4ce9f7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Merge">
+      <UniqueIdentifier>{bffefb3e-2162-49d5-8dbf-63ccfe83f9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaker\Shaker_random">
+      <UniqueIdentifier>{c5bd3754-80eb-404f-ae6f-cb20ed72dc09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Merge\Merge_random">
+      <UniqueIdentifier>{fa801b70-eb0b-468f-a06d-0f41ad3981ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaker\Shaker_sorted">
+      <UniqueIdentifier>{71610723-6704-4c1f-9fba-97902ba633a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Merge\Merge_reversed">
+      <UniqueIdentifier>{a9ebba41-d3cf-4fe3-a59e-6c7bba4c1842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Merge\Merge_sorted">
+      <UniqueIdentifier>{5a4f91b9-6c9a-4b24-85cd-9943643c42cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaker\Shaker_reversed">
+      <UniqueIdentifier>{b1df301f-1d76-4f83-a1a5-c9a7f6aec9c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Файлы ресурсов</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Bubble_random_comparisonn.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_random</Filter>
+    </Text>
+    <Text Include="Bubble_random_time.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_random</Filter>
+    </Text>
+    <Text Include="Bubble_random_copy.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_random</Filter>
+    </Text>
+    <Text Include="Bubble_reversed_comparison.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_reversed</Filter>
+    </Text>
+    <Text Include="Bubble_reversed_copy.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_reversed</Filter>
+    </Text>
+    <Text Include="Bubble_reversed_time.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_reversed</Filter>
+    </Text>
+    <Text Include="Bubble_sorted_comparison.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_sorted</Filter>
+    </Text>
+    <Text Include="Bubble_sorted_copy.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_sorted</Filter>
+    </Text>
+    <Text Include="Bubble_sorted_time.txt">
+      <Filter>Файлы ресурсов\Bubble\Bubble_sorted</Filter>
+    </Text>
+    <Text Include="Shaker_sorted_comparison.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_sorted</Filter>
+    </Text>
+    <Text Include="Shaker_sorted_copy.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_sorted</Filter>
+    </Text>
+    <Text Include="Shaker_sorted_time.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_sorted</Filter>
+    </Text>
+    <Text Include="Shaker_reversed_comparison.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_reversed</Filter>
+    </Text>
+    <Text Include="Shaker_reversed_copy.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_reversed</Filter>
+    </Text>
+    <Text Include="Shaker_reversed_time.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_reversed</Filter>
+    </Text>
+    <Text Include="Shaker_random_comparison.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_random</Filter>
+    </Text>
+    <Text Include="Shaker_random_copy.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_random</Filter>
+    </Text>
+    <Text Include="Shaker_random_time.txt">
+      <Filter>Файлы ресурсов\Shaker\Shaker_random</Filter>
+    </Text>
+    <Text Include="Merge_random_comparison.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_random</Filter>
+    </Text>
+    <Text Include="Merge_random_copy.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_random</Filter>
+    </Text>
+    <Text Include="Merge_random_time.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_random</Filter>
+    </Text>
+    <Text Include="Merge_reversed_comparison.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_reversed</Filter>
+    </Text>
+    <Text Include="Merge_reversed_copy.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_reversed</Filter>
+    </Text>
+    <Text Include="Merge_reversed_time.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_reversed</Filter>
+    </Text>
+    <Text Include="Merge_sorted_comparison.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_sorted</Filter>
+    </Text>
+    <Text Include="Merge_sorted_copy.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_sorted</Filter>
+    </Text>
+    <Text Include="Merge_sorted_time.txt">
+      <Filter>Файлы ресурсов\Merge\Merge_sorted</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\PYTHON\test_py\stats_sort.ipynb">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\PYTHON\test_py\stats_sort.py">
+      <Filter>Файлы ресурсов</Filter>
+    </None>
+  </ItemGroup>
+</Project>
